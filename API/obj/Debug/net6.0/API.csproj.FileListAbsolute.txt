@@ -52,3 +52,11 @@ C:\Users\Gurjas Rai PC\Desktop\DatingApp\API\bin\Debug\net6.0\runtimes\win-x64\n
 C:\Users\Gurjas Rai PC\Desktop\DatingApp\API\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\Gurjas Rai PC\Desktop\DatingApp\API\bin\Debug\net6.0\Humanizer.dll
 C:\Users\Gurjas Rai PC\Desktop\DatingApp\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Gurjas Rai PC\Desktop\DatingApp\API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Gurjas Rai PC\Desktop\DatingApp\API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Gurjas Rai PC\Desktop\DatingApp\API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Gurjas Rai PC\Desktop\DatingApp\API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Gurjas Rai PC\Desktop\DatingApp\API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Gurjas Rai PC\Desktop\DatingApp\API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Gurjas Rai PC\Desktop\DatingApp\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Gurjas Rai PC\Desktop\DatingApp\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
