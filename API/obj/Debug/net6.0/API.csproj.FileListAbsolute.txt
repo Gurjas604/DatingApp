@@ -60,3 +60,6 @@ C:\Users\Gurjas Rai PC\Desktop\DatingApp\API\bin\Debug\net6.0\System.IdentityMod
 C:\Users\Gurjas Rai PC\Desktop\DatingApp\API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Gurjas Rai PC\Desktop\DatingApp\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\Gurjas Rai PC\Desktop\DatingApp\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Gurjas Rai PC\Desktop\DatingApp\API\bin\Debug\net6.0\Data\UserSeedData.json
+C:\Users\Gurjas Rai PC\Desktop\DatingApp\API\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Gurjas Rai PC\Desktop\DatingApp\API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
