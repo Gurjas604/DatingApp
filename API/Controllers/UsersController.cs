@@ -32,7 +32,7 @@ namespace API.Controllers
     
         [HttpGet]
 
-        public async Task<ActionResult<IEnumerable<MemberDto>>> GetUsers([FromQuery]UserParams userParams)
+        public async Task<ActionResult<IEnumerable<MemberDto>>> GetJobs([FromQuery]UserParams userParams)
         {
             var user = await _userRepository.GetUserbyUsernameAsync(User.GetUserName());
             
@@ -51,13 +51,13 @@ namespace API.Controllers
       
         [HttpGet("{username}", Name ="GetUser")]
 
-        public async Task<ActionResult<MemberDto>> GetUser(string username)
+        public async Task<ActionResult<MemberDto>> GetJobById(string username)
         {
             return await _userRepository.GetMemberAsync(username);
         }
 
         [HttpPut]
-        public async Task<ActionResult> UpdateUser(MemberUpdateDto memberUpdateDto)
+        public async Task<ActionResult> UpdateJob(MemberUpdateDto memberUpdateDto)
         {
             var username = User.GetUserName();
             var user = await _userRepository.GetUserbyUsernameAsync(username);
@@ -129,7 +129,7 @@ namespace API.Controllers
 
 
         [HttpDelete("delete-photo/{photoId}")]
-        public async Task<ActionResult> DeletePhoto(int photoId)
+        public async Task<ActionResult> Deletejob(int photoId)
         {
             var user = await _userRepository.GetUserbyUsernameAsync(User.GetUserName());
 

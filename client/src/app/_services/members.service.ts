@@ -46,7 +46,7 @@ export class MembersService {
 
    }
 
-  getMembers(userParams: UserParams)
+  getJobs(userParams: UserParams)
   {
     var response = this.memberCache.get(Object.values(userParams).join('-'));
 
@@ -77,7 +77,7 @@ export class MembersService {
 
 
 
-  getMember(username: string)
+  getJob(username: string)
   { 
     const member = [...this.memberCache.values()]
       .reduce( (arr, elem) => arr.concat(elem.result), [])
@@ -93,7 +93,7 @@ export class MembersService {
     return this.http.get<Member>(this.baseUrl + 'users/'+username);
   }
 
-  updateMember(member: Member)
+  updateJob(member: Member)
   {
     return this.http.put(this.baseUrl + 'users', member).pipe(
       map(()=>{
@@ -115,6 +115,8 @@ export class MembersService {
 
   }
 
+
+  
   addLike(username: string)
   {
     return this.http.post(this.baseUrl + 'likes/'+username, {});
